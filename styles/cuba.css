@@ -4,9 +4,9 @@
 }
 
 .header {
-  /* background-image: url("https://lp-cms-production.imgix.net/features/2018/06/CUBA-TRAVEL-3a06332a2d71.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4"); */
-  /* height: 100vh; */
-  /* width: 100vh; */
+  background-image: url("https://lp-cms-production.imgix.net/features/2018/06/CUBA-TRAVEL-3a06332a2d71.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4");
+  height: 100vh;
+  width: 100vw;
 }
 
 .navbar__list {
