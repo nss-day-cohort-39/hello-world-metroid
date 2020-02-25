@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+}
+
 .navbar {
-  background-color: blue;
+  background:linear-gradient(0.25turn, blue, red);
+  
 }
 
 .country-info {
