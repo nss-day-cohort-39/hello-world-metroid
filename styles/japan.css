@@ -10,10 +10,18 @@ body {
 }
 
 .header__image {
+  background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/japan-1200x729.jpg');
   background-size: cover;
-  height: 60%;
+  height: 60vh;
   width: 100%;
   margin: 0;
+  padding-bottom: 30em;
+  padding-right: 15px;
+}
+
+.country-name {
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .country-info {
@@ -31,7 +39,7 @@ body {
 
 .landmarks-list {
   background-color: crimson;
-  flex-basis: 33%;
+  flex-basis: 35%;
 }
 
 .heads-list {
