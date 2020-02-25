@@ -1,30 +1,8 @@
-.navbar {
-    background:black;
-}
-
-.navbar__list {
+.country-info {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin:0;
 }
 
-.nav__list {
-    list-style:none;
-}
-
-.nav__link {
-    text-decoration: none;
-    color: white;
-    padding-right: 0.5em;
-}
-
-.header__image {
-    width: 100%;
-    max-width: 94em;
-    height: auto;
-}
-
-.country-name {
-    text-align:center;
+.cities-list, .landmarks-list, .heads-list  {
+    flex-basis: 33%;
 }
