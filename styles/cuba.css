@@ -11,11 +11,16 @@ body {
   display: flex;
 }
 
+.country-name {
+  color: white;
+}
+
 .header__image {
-  background-image: url(https://www.smartertravel.com/uploads/2017/06/canamericanstraveltocuba_hero-1400x500.jpg);
   background-size: cover;
+  background: linear-gradient(transparent, black), url(https://www.smartertravel.com/uploads/2017/06/canamericanstraveltocuba_hero-1400x500.jpg);
   height: 60vh;
   width: 100%;
+  display: flex;
  
 }
 
