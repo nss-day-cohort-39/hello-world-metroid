@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  background:linear-gradient(0.25turn, blue, red);
+  background:linear-gradient(0.25turn, blue, red, white);
   
 }
 
@@ -13,14 +13,19 @@ body {
 
 .country-name {
   color: white;
+  font-size: 20em;
+  opacity: .6;
 }
 
 .header__image {
   background-size: cover;
-  background: linear-gradient(transparent, black), url(https://www.smartertravel.com/uploads/2017/06/canamericanstraveltocuba_hero-1400x500.jpg);
-  height: 60vh;
-  width: 100%;
+  background: linear-gradient(transparent, rgb(70, 70, 70)), url(https://lp-cms-production.imgix.net/2019-06/b6cc5c258ca09474c5163178f01455e6-cuba.jpeg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
  
 }
 
