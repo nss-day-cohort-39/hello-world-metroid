@@ -29,7 +29,24 @@ body {
  
 }
 
+.cities-title {
+  color:#ddd;
+  background-color: darkblue;
+}
+
+.landmarks-title {
+  color: #ddd;
+  background-color: rgb(153, 14, 42);
+
+}
+
+.heads-title {
+  color : #fff;
+  background-color: rgb(153, 153, 153);
+}
+
 .cities-list {
+  height: 500px;
   background-color: blue;
 }
 
@@ -39,8 +56,4 @@ body {
 
 .heads-list {
   background-color: #ddd;
-}
-
-.cities-list {
-  height: 500px;
 }
