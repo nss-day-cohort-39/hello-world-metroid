@@ -1,8 +1,18 @@
+.navbar {
+  background-color: blue;
+}
+
 .country-info {
   display: flex;
 }
 
-
+.header__image {
+  background-image: url(https://www.smartertravel.com/uploads/2017/06/canamericanstraveltocuba_hero-1400x500.jpg);
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+ 
+}
 
 .cities-list {
   background-color: blue;
