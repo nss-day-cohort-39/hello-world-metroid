@@ -30,3 +30,7 @@ body {
 .heads-list {
   background-color: #ddd;
 }
+
+.cities-list {
+  height: 500px;
+}
