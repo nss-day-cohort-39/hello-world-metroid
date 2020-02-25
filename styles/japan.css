@@ -1,0 +1,39 @@
+@import "./main.css";
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: cornflowerblue;
+}
+
+.header__image {
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+  margin: 0;
+}
+
+.country-info {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.cities-list {
+  background-color: floralwhite;
+  flex-basis: 33%;
+}
+
+.landmarks-list {
+  background-color: crimson;
+  flex-basis: 33%;
+}
+
+.heads-list {
+  background-color: floralwhite;
+  flex-basis: 33%;
+}
