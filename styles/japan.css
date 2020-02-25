@@ -6,6 +6,7 @@ body {
 
 .header {
   background-color: cornflowerblue;
+  margin: 0;
 }
 
 .header__image {
