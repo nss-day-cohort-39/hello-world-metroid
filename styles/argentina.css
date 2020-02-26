@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: skyblue;
+    background-image: url(https://i.pinimg.com/originals/f3/dd/5b/f3dd5bae3c32117632fd5e01d69691c6.png);
   }
   
   .navbar {
@@ -11,7 +12,9 @@ body {
   .country-info {
     display: flex;
     justify-content: space-evenly;
+    padding: 30px 0 30px 0;
   }
+  
 
   .country-name {
     color: white;
@@ -30,7 +33,8 @@ body {
   }
   
   .cities-list {
-    background-color: lightblue;
+    background-color: lightblue; 
+    
   }
   
   .landmarks-list {
