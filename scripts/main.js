@@ -17,33 +17,26 @@ const citiesButton = document.querySelector('.cities-btn')
 const landmarksButton = document.querySelector('.landmarks-btn')
 const headsButton = document.querySelector('.heads-btn')
 
+
 citiesButton.addEventListener('click', () => {
-  console.log('button clicked')
-citiesList__cities.style.display = 'flex'
+citiesList__cities.style.display == 'none' ? citiesList__cities.style.display = 'flex' : citiesList__cities.style.display = 'none'
 
-citiesList.style.height = '100vh'
-
+citiesList.style.height == '16vh' ? citiesList.style.height = '100vh' : citiesList.style.height = '16vh'
 })
 
 landmarksButton.addEventListener('click', () => {
-  console.log('button clicked')
-landmarksList__landmarks.style.display = 'flex'
+landmarksList__landmarks.style.display == 'none' ? landmarksList__landmarks.style.display = 'flex' : landmarksList__landmarks.style.display = 'none'
 
-landmarksList.style.height = '100vh'
+landmarksList.style.height == '16vh' ? landmarksList.style.height = '100vh' : landmarksList.style.height = '16vh'
 
 })
 
 headsButton.addEventListener('click', () => {
-  console.log('button clicked')
-headsList__heads.style.display = 'flex'
+headsList__heads.style.display == 'none' ? headsList__heads.style.display = 'flex' : headsList__heads.style.display = 'none'
 
-headsList.style.height = '100vh'
+headsList.style.height == '16vh' ? headsList.style.height = '100vh' : headsList.style.height = '16vh'
 
 })
-
-const expandCitiesList = () => {
-
-}
 
 
 

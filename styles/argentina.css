@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: skyblue;
+  }
+  
+  .navbar {
+    background:linear-gradient(rgb(255, 255, 138), lightblue, white);
+    
+  }
+  
+  .country-info {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .country-name {
+    color: white;
+    font-size: 8em;
+    opacity: .8;
+  }
+  
+  .header__image {
+    background-image: url(https://www.fodors.com/wp-content/uploads/2019/05/00_HERO_Ultimate-Argentina_shutterstock_1109339036.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .cities-list {
+    background-color: lightblue;
+  }
+  
+  .landmarks-list {
+    background-color: rgb(255, 255, 138);
+  }
+  
+  .heads-list {
+    background-color: lightblue;
+  }
+  
+  .country-info-img {
+        flex-shrink: inherit;
+        max-width: 10em;
+        height: auto;
+  }
