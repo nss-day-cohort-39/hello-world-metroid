@@ -1,2 +1,23 @@
-
 @import "./header.css";
+
+.home__link {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 8em;
+  flex-basis: 20%;
+  justify-content: space-evenly;
+}
+
+.flag__holder {
+  display: flex;
+  flex-basis: 30%;
+  width: 25%;
+  height: 25%;
+  transform: rotate(90deg);
+}
+
+.flag__link {
+  height: 200px;
+  width: 350px;
+  box-shadow: 10px 10px 10px rgba(26, 22, 22, 0.5)
+}
