@@ -7,10 +7,6 @@ body {
   
 }
 
-.country-info {
-  display: flex;
-}
-
 .country-name {
   color: white;
   font-size: 20em;
@@ -56,4 +52,27 @@ body {
 
 .heads-list {
   background-color: #ddd;
+}
+
+.country-info {
+  display: flex;
+  justify-content: center;
+}
+
+.cities-title, .landmarks-title, .heads-title {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+.cities-list, .landmarks-list, .heads-list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.cities-list__cities, .landmarks-list__landmarks, .heads-list__heads {
+  display: flex;
+  /* flex-direction: column; */
+  list-style: none;
+  padding-left: 10px;
 }
