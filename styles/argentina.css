@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+  }
+  
+  .navbar {
+    background:linear-gradient(rgb(255, 255, 138), lightblue, white);
+    
+  }
+  
+  .country-info {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__image {
+    background-image: url(https://www.steppestravel.com/app/uploads/2019/06/fitz-roy-mountain-near-el-chalten-patagonia.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+   
+  }
+  
+  .cities-list {
+    background-color: lightblue;
+  }
+  
+  .landmarks-list {
+    background-color: rgb(255, 255, 138);
+  }
+  
+  .heads-list {
+    background-color: lightblue;
+  }
+  
