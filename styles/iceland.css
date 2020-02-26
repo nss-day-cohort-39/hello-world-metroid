@@ -18,12 +18,36 @@
     margin:0em 1em 0em 0em;
 }
 
+.heads-list {
+    text-align: center;
+}
+
 .list-titles {
     list-style:none;
+}
+
+.list-figure {
+    list-style:none;
+    margin-bottom: 1em;
+}
+
+.list-other {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.list-image {
+    width: 100%;
+    height: auto;
 }
 .president {
     width: 100%;
     max-width: 11em;
     height: auto;
+}
+
+.pres__caption {
+    font-size: 1em;
 }
 
