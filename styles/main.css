@@ -6,6 +6,8 @@
 
 body {
   margin: 0;
+}
+
 .home__link {
   display: flex;
   flex-wrap: nowrap;
