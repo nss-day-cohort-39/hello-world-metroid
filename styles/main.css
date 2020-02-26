@@ -1,5 +1,9 @@
 @import "./header.css";
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .home__link {
   display: flex;
   flex-wrap: nowrap;
