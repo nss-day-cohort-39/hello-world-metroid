@@ -24,6 +24,7 @@ body {
   padding-bottom: 10px;
   font-size: 10em;
   color: crimson;
+  opacity: .8;
 }
 
 .country-info {
@@ -47,4 +48,19 @@ body {
 .heads-list {
   background-color: floralwhite;
   flex-basis: 33%;
+}
+
+.city-title {
+  text-align: center;
+  border-bottom: 3px dashed black;
+}
+
+.landmarks-title {
+  text-align: center;
+  border-bottom: 3px dashed black;
+}
+
+.heads-title {
+  text-align: center;
+  border-bottom: 3px dashed black;
 }
