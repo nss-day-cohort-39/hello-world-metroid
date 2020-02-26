@@ -22,6 +22,8 @@ body {
 .country-name {
   margin: 0;
   padding-bottom: 10px;
+  font-size: 10em;
+  color: crimson;
 }
 
 .country-info {
