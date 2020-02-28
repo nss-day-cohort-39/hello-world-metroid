@@ -19,7 +19,7 @@ body {
   padding-right: 15px;
 }
 
-.country-name {
+.countryName {
   margin: 0;
   padding-bottom: 10px;
   font-size: 10em;
@@ -27,7 +27,7 @@ body {
   opacity: .8;
 }
 
-.country-info {
+.countryInfo {
   background-color: cornflowerblue;
   display: flex;
   flex-wrap: nowrap;
@@ -35,32 +35,32 @@ body {
   margin: 0;
 }
 
-.cities-list {
+.cities {
   background-color: floralwhite;
   flex-basis: 33%;
 }
 
-.landmarks-list {
+.landmarks{
   background-color: crimson;
   flex-basis: 35%;
 }
 
-.heads-list {
+.heads {
   background-color: floralwhite;
   flex-basis: 33%;
 }
 
-.city-title {
+.city__title {
   text-align: center;
   border-bottom: 3px dashed black;
 }
 
-.landmarks-title {
+.landmarks__title {
   text-align: center;
   border-bottom: 3px dashed black;
 }
 
-.heads-title {
+.heads__title {
   text-align: center;
   border-bottom: 3px dashed black;
 }
