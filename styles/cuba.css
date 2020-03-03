@@ -1,112 +1,10 @@
-body {
+.body {
   margin: 0;
 }
 
 .navbar {
   background:linear-gradient(0.25turn, blue, red, white);
   
-}
-
-.nav__link:hover {
-  color: rgb(230, 167, 9);
-  transition: .5s;
-}
-
-.country-name {
-  color: white;
-  font-size: 20em;
-  opacity: .6;
-}
-
-.header__image {
-  background-size: cover;
-  background: linear-gradient(transparent, rgb(70, 70, 70)), url(https://lp-cms-production.imgix.net/2019-06/b6cc5c258ca09474c5163178f01455e6-cuba.jpeg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
- 
-}
-
-.cities-title {
-  color:#fff;
-  background-color: darkblue;
-  padding: 10px 0 10px 0;
-}
-
-.landmarks-title {
-  color: #fff;
-  background-color: rgb(153, 14, 42);
-  padding: 10px 0 10px 0;
-}
-
-.heads-title {
-  color : #fff;
-  background-color: rgb(153, 153, 153);
-  padding: 10px 0 10px 0;
-}
-
-.cities-list {
-  height: 500px;
-  background-color: blue;
-}
-
-.landmarks-list {
-  background-color: crimson;
-}
-
-.heads-list {
-  background-color: #ddd;
-}
-
-.country-info {
-  display: flex;
-  justify-content: center;
-}
-
-.cities-title, .landmarks-title, .heads-title {
-  text-transform: uppercase;
-  padding-left: 5px;
-  font-size: 2em;
-}
-
-.cities-list, .landmarks-list, .heads-list {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  height: 100vh;
-}
-
-.cities-list__cities, .landmarks-list__landmarks, .heads-list__heads {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding-left: 10px;
-  color: #fff;
-  font-size: 1.25em;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.cities-list__cities {
-  background-color: darkblue;
-}
-
-.landmarks-list__landmarks {
-  background-color: rgb(153, 14, 42);
-}
-
-.heads-list__heads {
-  background-color: rgb(153, 153, 153);
-}
-
-img {
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-  border-radius: 50%;
 }
 
 button {
@@ -144,3 +42,102 @@ button {
   border: 2px solid goldenrod;
   transition: .5s;
 }
+
+.nav__link:hover {
+  color: rgb(230, 167, 9);
+  transition: .5s;
+}
+
+.countryName {
+  color: white;
+  font-size: 20em;
+  opacity: .6;
+  display: flex;
+  justify-content: center;
+}
+
+.header__image {
+  background-size: cover;
+  background: linear-gradient(transparent, rgb(70, 70, 70)), url(https://lp-cms-production.imgix.net/2019-06/b6cc5c258ca09474c5163178f01455e6-cuba.jpeg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ 
+}
+
+/**************** COUNTRY INFO SECTION ***************/
+
+.countryInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.citiesTitle {
+  color:#fff;
+  background-color: darkblue;
+  padding: 10px 0 10px 10px;
+  border-left: 1px solid #fff;
+}
+
+.landmarksTitle {
+  color: #fff;
+  background-color: rgb(153, 14, 42);
+  padding: 10px 0 10px 10px;
+  border-left: 1px solid #fff;
+}
+
+.headsTitle {
+  color : #fff;
+  background-color: rgb(153, 153, 153);
+  padding: 10px 0 10px 10px;
+  border-left: 1px solid #fff;
+}
+
+.countryInfo--styling {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.countryInfo__citiesList {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.countryInfo__landmarksList {
+  background-color: crimson;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+
+}
+
+.countryInfo__headsList {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+
+}
+
+
+.infoStyling {
+  display: flex;
+  width: 100%;
+}
+
+
+.imageStyling {
+  height: 250px;
+  width: 300px;
+}
+
+
