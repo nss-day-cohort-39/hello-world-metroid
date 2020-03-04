@@ -1,6 +1,12 @@
 const Leader = (leaderObject) => {
     return `
-           <section class="leaderList__leader">${leaderObject.leader}</section>
+            <ul>
+            <img class="country-info-img" src="${leaderObject.img}">
+            <section class="leaderList__leader">
+            <li>${leaderObject.leader}</li>
+            </section>
+            <section class="leaderList__info">${leaderObject.info}</section>
+            </ul>
     `
 } 
 

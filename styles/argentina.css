@@ -34,19 +34,22 @@ body {
   
   .cities-list {
     background-color: lightblue; 
-    
+    max-width: 23%;
   }
   
   .landmarks-list {
     background-color: rgb(238, 234, 223);
+    max-width: 23%;
   }
   
-  .heads-list {
+  .leaderList {
     background-color: lightblue;
-  }
+    max-width: 23%;
+    }
   
   .country-info-img {
         flex-shrink: inherit;
         max-width: 10em;
         height: auto;
+        width: 90%;
   }
