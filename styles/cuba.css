@@ -4,6 +4,7 @@
 
 .navbar {
   background:linear-gradient(0.25turn, blue, red, white);
+  border-bottom: 1px solid #fff;
   
 }
 
@@ -116,7 +117,6 @@ button {
   flex-direction: column;
   width: 100vw;
 
-
 }
 
 .countryInfo__headsList {
@@ -125,19 +125,27 @@ button {
   flex-direction: column;
   width: 100vw;
 
-
 }
 
 
 .infoStyling {
   display: flex;
   width: 100%;
+  border: 1px solid #fff;
 }
 
 
 .imageStyling {
   height: 250px;
   width: 300px;
+}
+
+.details-btn {
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  font-size: 1rem;
+  border-radius: 3px;
 }
 
 

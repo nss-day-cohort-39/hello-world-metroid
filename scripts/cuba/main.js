@@ -1,12 +1,15 @@
 import RenderListOfCities from "./cities/CitiesList.js";
 import RenderLandmarksList from "./landmarks/LandmarksList.js";
 import RenderLeadersList from "./leaders/LeadersList.js";
+import initializeCityDetailsButtonEvents from "./cities/Dialog.js";
 
 RenderListOfCities()
 
 RenderLandmarksList()
 
 RenderLeadersList()
+
+initializeCityDetailsButtonEvents()
 
 
 
