@@ -1,9 +1,8 @@
 const Leader = (leaderObject) => {
     return `
-    <ul>
-        <li class="leader_background">Leader</li>
+    <ul class="leader__list">
         <li class="leader__name">${leaderObject.position} ${leaderObject.name}</li>
-        <li><img class="leader__image src="${leaderObject.image}" alt=""></li>
+        <li class="imageList__container"><img class="leader__image" src="${leaderObject.image}" alt=""></li>
     </ul>
     `
 }
