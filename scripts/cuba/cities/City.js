@@ -6,8 +6,7 @@ const RenderCity = citiesDataArray => {
           <button class="details-btn" id="button--${citiesDataArray.id}">Details</button>
           <dialog class="dialog--city" id="details--${citiesDataArray.id}">
             <ul>
-              <li>Population: ${citiesDataArray.population}</li>
-              <li>Elevation: ${citiesDataArray.elevation}</li>
+              <li>${citiesDataArray.description}</li>
             </ul>
             <button class="button--close">Close Dialog</button>
           </dialog>
