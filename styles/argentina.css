@@ -5,7 +5,7 @@ body {
   }
   
   .navbar {
-    background:linear-gradient(rgb(255, 255, 138), lightblue, white);
+    background:linear-gradient(rgb(211, 160, 20), lightblue, white);
     
   }
   
@@ -38,7 +38,7 @@ body {
   }
   
   .landmarks-list {
-    background-color: rgb(255, 255, 138);
+    background-color: rgb(238, 234, 223);
   }
   
   .heads-list {
