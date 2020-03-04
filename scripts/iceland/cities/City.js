@@ -1,9 +1,9 @@
 const City = (cityObject) => {
     return `
-    <figure>
-        <img src="${cityObject.image}" alt="">
-        <figcaption>${cityObject.name}</figcaption>
-    </figure>
+    <ul>
+        <li><img src="${cityObject.image}" alt=""></li>
+        <li>${cityObject.name}</li>
+    </ul>
     `
 }
 
