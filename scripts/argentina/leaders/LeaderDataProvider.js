@@ -7,7 +7,7 @@ const leaderCollection = [
     {
         name: "Mauricio Macri",
         info: "Mauricio Macri is an Argentine businessman and politician who served as President of Argentina from 2015 to 2019. A civil engineer, Macri won the first presidential runoff ballotage in Argentina's history and is the first democratically-elected non-Radical or Peronist president since 1916.",
-        img: "https://media.newyorker.com/photos/590972f11c7a8e33fb38f053/master/pass/Mochkofsky-Whats-Next-Mauricio-Macri.jpg"
+        img: "https://alnavio.com/fotos/1/3211_2-RoyEllis-EXTERIOR-macri-wikipedia.jpg"
     },
     {
         name: "Cristina Fernández",

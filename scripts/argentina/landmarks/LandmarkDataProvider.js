@@ -7,7 +7,7 @@ const landmarkCollection = [
     {
         name: "Caviahue Araucaria Stand",
         info: "They survive in a very small handful of sites in the world, but alone, against wind and cold, the araucarias have adapted to this land and have won, of course, a place. There, where only the toughest shrubs can withstand harsh winters, these species continue to grow as reaching for the sky with their sharp branches.",
-        img: "https://lh3.googleusercontent.com/proxy/lK-uuAdtQDLdrVpqLj0aGKTtmLe8sLTpCgvoL-V1inRJd6LIZdSek341c8QwEJhqo8Xh0McqJTDlQnT16jeoAfd9ZkeFRxukpXj9tMZwNfgSyV1Ie8a9RdFVQ-RMeWh5_qWjFLz2dWIWFwRo4N3stmHX1Q"
+        img: "https://i.pinimg.com/originals/a4/6d/95/a46d9521651ba1ba2dc198159911f6d5.jpg"
        
     },
     {

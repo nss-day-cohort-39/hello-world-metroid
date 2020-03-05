@@ -6,7 +6,7 @@ const cityCollection = [
     },
     {
         name: "Villa La Angostura",
-        info: "Villa La Angostura is a resort town on Nahuel Huapi Lake in Patagonia, Argentina. It’s known for its Alpine-style wooden buildings. The surrounding Nahuel Huapi National Park has Andean mountains, lakes and forests. Nearby, Los Arrayanes National Park contains centuries-old arrayán trees. Cerro Bayo mountain ski trails are just outside of town. The Seven Lakes road winds north to the town of San Martín de los Andes.",
+        info: "Villa La Angostura is a resort town on Nahuel Huapi Lake in Patagonia, Argentina. It’s known for its Alpine-style wooden buildings. The surrounding Nahuel Huapi National Park has Andean mountains, lakes and forests. Nearby, Los Arrayanes National Park contains centuries-old arrayán trees. Cerro Bayo mountain ski trails are just outside of town.",
         img: "https://i2.wp.com/careerbreakadventures.com/wp-content/uploads/2019/03/angostura-view.jpg?fit=1200%2C813&ssl=1"
     },
     {

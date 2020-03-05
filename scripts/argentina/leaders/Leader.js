@@ -5,7 +5,7 @@ const Leader = (leaderObject) => {
             <section class="leaderList__leader">
             <h3>${leaderObject.name}</h3>
             </section>
-            <p><section class="leaderList__info">${leaderObject.info}</section></p>
+            <p class="leaderList__info">${leaderObject.info}</p>
             </section>
     `
 } 

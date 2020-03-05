@@ -5,7 +5,7 @@ const City = (cityObject) => {
             <section class="cityList__city">
             <h3>${cityObject.name}</h3>
             </section>
-            <p><section class="cityList__info">${cityObject.info}</section></p>
+            <p class="cityList__info">${cityObject.info}</p>
             </section>
     `
 } 
