@@ -1,7 +1,7 @@
 import { landmarkInfo } from "./LandmarkDataProvider.js"
 import Landmark from "./Landmark.js"
 
-const htmlTarget = document.querySelector(".landmarks__list")
+const htmlTarget = document.querySelector(".landmarksList")
 
 const LandmarkList = () => {
     const landmarkObjectArray = landmarkInfo()
