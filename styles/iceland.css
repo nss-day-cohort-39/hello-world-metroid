@@ -1,53 +1,97 @@
-.country-name {
+.headerImage {
+    width: 100%;
+    height: auto;
+}
+.countryName {
     background:black;
     color:white;
-    margin: 0em 0em 1em 0em;
+    margin: 0;
+    text-align:center;
     position: relative;
     bottom: 4px;
     padding: 3px;
 }
 
-.country-info {
+.citiesList {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.cities-list, .landmarks-list, .heads-list  {
-    flex-basis: 30%;
-    border: 1px solid black;
-    margin:0em 1em 0em 0em;
+.city__name {
+    list-style:none;
+}
+.city__list {
+    flex-basis: 33%
 }
 
-.heads-list {
+.city__name {
+
+}
+.city__background {
+    background: #0000b7ab;
     text-align: center;
 }
 
-.list-titles {
+.imageList__container {
     list-style:none;
 }
 
-.list-figure {
-    list-style:none;
-    margin-bottom: 1em;
+.landmarksList {
+    display: flex;
+}
+.city__image {
+    width: 18em;
+    height: 14em;
+    margin:0;
 }
 
-.list-other {
+.landmark__image {
+    width: 18em;
+    height: 14em;
+    margin: 0;
+}
+
+.landmarksList {
+    display: flex;
+}
+
+.landmark__list{
+    flex-basis: 33%;
+}
+.landmark__background {
+    background: #0000b7ab;
+    text-align: center;
+}
+
+.landmark__name {
+    list-style:none;
+}
+
+.headsList {
+    display:flex;
+}
+
+.leader__list{
+    flex-basis: 49%;
+}
+
+.leader__background {
+    background: #f31313;
+    text-align: center;
     list-style: none;
+}
+
+.leader__name {
     font-weight: bold;
+    list-style: none;
+
+}
+.leader__image { 
+    width: 25em;
+    height: 25em;
+}
+.name__header {
+    background: #0000b7ab;
     text-align: center;
-    margin-bottom: 6px;
+    width: 12em; 
+    margin:0;
 }
-.list-image {
-    width: 100%;
-    height: auto;
-}
-.president {
-    width: 100%;
-    max-width: 11em;
-    height: auto;
-}
-
-.pres__caption {
-    font-size: 1em;
-}
-
