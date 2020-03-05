@@ -3,6 +3,7 @@
     background-color:  black;
     background-image: url(https://i.pinimg.com/originals/f3/dd/5b/f3dd5bae3c32117632fd5e01d69691c6.png);
     background-size: 10%;
+    background-blend-mode: lighten;
   }
   
 
@@ -15,7 +16,6 @@
   .header__image {
     background-image: url(https://www.fodors.com/wp-content/uploads/2019/05/00_HERO_Ultimate-Argentina_shutterstock_1109339036.jpg);
     background-size: cover;
-    /* height: 60vh; */
     width: 94%;
     display: flex;
     justify-content: center;
