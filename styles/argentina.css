@@ -1,27 +1,16 @@
-body {
+.body {
     margin: 0;
     background-color: skyblue;
     background-image: url(https://i.pinimg.com/originals/f3/dd/5b/f3dd5bae3c32117632fd5e01d69691c6.png);
   }
   
+
   .navbar {
-    background:linear-gradient(rgb(211, 160, 20), lightblue, white);
+    background:linear-gradient(rgb(211, 160, 20), lightblue, rgb(238, 234, 223));
     
   }
-  
-  .country-info {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px 0 30px 0;
-  }
-  
 
-  .country-name {
-    color: white;
-    font-size: 8em;
-    opacity: .8;
-  }
-  
+
   .header__image {
     background-image: url(https://www.fodors.com/wp-content/uploads/2019/05/00_HERO_Ultimate-Argentina_shutterstock_1109339036.jpg);
     background-size: cover;
@@ -31,25 +20,56 @@ body {
     justify-content: center;
    
   }
-  
-  .cities-list {
-    background-color: lightblue; 
-    max-width: 23%;
+
+
+  .country-name {
+    color: white;
+    font-size: 8em;
+    opacity: .8;
+  }
+
+
+  .country-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    
+  }
+
+
+  .country-info-img {
+        flex-shrink: inherit;
+        max-width: 100%;
+        height: auto;
+  }
+
+
+  .country-details {
+    max-width: 30%;
+    text-align: center;
+  }
+
+
+  .countryHTML {
+   padding: 10% 10% 10% 10%;
   }
   
-  .landmarks-list {
+
+  .cityList {
+    background-color: lightblue;   
+  }
+  
+
+  .landmarkList {
     background-color: rgb(238, 234, 223);
-    max-width: 23%;
   }
+  
   
   .leaderList {
     background-color: lightblue;
-    max-width: 23%;
-    }
-  
-  .country-info-img {
-        flex-shrink: inherit;
-        max-width: 10em;
-        height: auto;
-        width: 90%;
   }
+
+  
+  
+  
