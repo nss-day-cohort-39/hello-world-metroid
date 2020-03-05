@@ -1,7 +1,7 @@
 import { cityInfo } from "./CityDataProvider.js"
 import City from "./City.js"
 
-const htmlTarget = document.querySelector(".cities__list")
+const htmlTarget = document.querySelector(".citiesList")
 
 const CityList = () => {
     const cityObjectArray = cityInfo()

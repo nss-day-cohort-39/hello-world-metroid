@@ -1,7 +1,7 @@
 import { presidentInfo } from "./LeaderDataProvider.js"
 import Leader from "./Leader.js"
 
-const htmlTarget = document.querySelector(".heads__list")
+const htmlTarget = document.querySelector(".headsList")
 
 const LeaderList = () => {
     const leaderObjectArray = presidentInfo()
